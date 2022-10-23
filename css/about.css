@@ -1,0 +1,29 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS rules to specify families: */
+/* font-family: 'Megrim', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+body{
+	background: url(resources/720p_background.mp4) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#bgVideo{
+	position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#credits{
+	max-height: 15vw;
+	max-width: 150vh;
+    left: 50%;
+    top: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}

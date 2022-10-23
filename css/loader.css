@@ -1,0 +1,12 @@
+body{
+	background-color: #292929;
+}
+
+#loaderGif_a01{
+	position:absolute;
+	margin:auto auto;
+	left:0;
+	right:0;
+	top: 0;
+	bottom:0;
+}
